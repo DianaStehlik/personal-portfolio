@@ -82,15 +82,14 @@ background-color: #e0f7fa;
 	}
 
 	nav a {
-		margin:0 10px;
-		color: white;
-		text-decoration: none;
-		padding: 14px 20px;
+   	 	margin: 0 10px;
+  	  	color: white;
+  		text-decoration: none;
+   	 	padding: 14px 20px;
 }
 
-nav a:visited {
-	color:#D8BFD8
-}
+	nav a:visited {
+   	 color: #D8BFD8;
 }
 /* Tablet Viewport: Show mobile class, hide tablet-desktop class */
 .mobile {
