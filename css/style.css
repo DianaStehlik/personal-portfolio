@@ -73,7 +73,7 @@ background-color: #e0f7fa;
 	#nav-menu {
 		display: none;
 		flex-direction: column;
-		background-color: #f9f9f9;
+		background-color: #D8BFD8;
 		padding: 10px;
 	}
 
@@ -308,7 +308,6 @@ footer a {
         color: #132913;
         background-color: #e2eae2;
     }
-	nav li a:visited {
- 	color: #D8BFD8;
+
     
 }
