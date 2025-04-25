@@ -144,6 +144,10 @@ text-decoration: none;
 padding: 14px 20px;
 }
 
+nav a:visited {
+	color:D8BFD8
+}
+
 nav a:hover {
 background-color: #d8b4f2;}
 
