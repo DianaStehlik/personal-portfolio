@@ -1,3 +1,4 @@
+/*
 Author: Diana Stehlik
 File Name: styles.css
 */
@@ -10,120 +11,79 @@ body, header, nav, main, footer, img, h1, h3, ul {
 
 /* Style rule for body and images */
 body {
-margin: 0;
-font-family: Ariel, san-serif;
-background-color: #e0f7fa;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
 }
 
 .about-container {
-	display: flex;
-	flex-wrap: wrap;
-	border: 2px solid #ccc;
-	padding: 20px;
-	margin: 20px auto;
-	max-width: 1000px;
-	background-color: #f9f9f9;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .about-text {
-	flex: 1;
-	padding: 15px;
+    flex: 1;
+    padding: 15px;
 }
 
 .about-image {
-	flex: 1;
-	padding: 15px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-image img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
-
-/* Style rules for mobile viewport */
 
 /* Hamburger menu icon */
 .hamburger {
-	display: none;
-	flex-direction: column;
-	cursor: pointer;
-	width: 30px;
-	height: 25px;
-	justify-content: space-between;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
 }
 
 .hamburger span {
-	height: 4px;
-	background-color: #333;
-	border-radius: 2px;
-}
-
-/* Responsive nav */
-@media screen and (max-width: 768px) {
-	.hamburger {
-		display: flex;
-		margin: 10px;
-	}
-
-	#nav-menu {
-		display: none;
-		flex-direction: column;
-		background-color: #f9f9f9;
-		padding: 10px;
-	}
-
-	#nav-menu.show {
-		display: flex;
-	}
-
-	nav a {
-		margin:0 10px
-		color: white;
-		text-decoration: none;
-		padding: 14px 20px;
-}
-
-nav a:visited {
-	color:D8BFD8
-}
-}
-/* Tablet Viewport: Show mobile class, hide tablet-desktop class */
-.mobile {
-    display: block;
-}
-
-.tablet-desktop {
-    display: none;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
 }
 
 /* Style rules for header content */
 header {
-background-color: #6a0dad;
-color: white;
-padding: 20px;
-text-align: center;
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
+
 @keyframes spinOnce {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 header h1 {
-  animation: spinOnce 1.5s ease-out 1;
-}
-header h1 {
-  display: inline-block;
-  color: #00fff7;
-  text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7, 0 0 30px #00fff7;
-  animation: spinOnce 1.5s ease-out 1;
+    display: inline-block;
+    color: #00fff7;
+    text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7, 0 0 30px #00fff7;
+    animation: spinOnce 1.5s ease-out 1;
 }
 
 header h3 {
@@ -139,28 +99,25 @@ header h3 {
 
 /* Style rules for navigation area */
 nav {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #444;
-padding: 10px;
-font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    font-size: 20px;
 }
 
 nav a {
-margin:0 10px
-color: white;
-text-decoration: none;
-padding: 14px 20px;
-}
-
-nav a:visited {
-	color:D8BFD8
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
 }
 
 nav a:hover {
-background-color: #d8b4f2;}
-
+    background-color: #d8b4f2;
+    color: white;
+}
 
 /* Style rules for main content */
 main {
@@ -194,7 +151,6 @@ main p {
     width: 50%;
     margin: 0 auto;
     line-height: 115%;
-    
 }
 
 .tel-link a {
@@ -212,53 +168,53 @@ main ul {
 }
 
 .photo-row {
-  display: flex;
-  justify-content: center; /* center the images in the row */
-  gap: 20px; /* space between images */
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
-  margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .photo-row img {
-  width: 50%; 
-  max-width: 400px;
-  height: auto;
-  border-radius: 10px; 
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .edu-heading {
-  text-align: center;
-  font-size: 2em;
-  color: purple;
-  margin-top: 30px;
-  margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: purple;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .edu-table {
-  width: 80%;
-  margin: 0 auto;
-  border-collapse: collapse;
-  font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
 }
 
 .edu-table th,
 .edu-table td {
-  border: 2px solid purple;
-  padding: 12px;
-  text-align: left;
+    border: 2px solid purple;
+    padding: 12px;
+    text-align: left;
 }
 
 .edu-table th {
-  background-color: teal;
-  color: white;
+    background-color: teal;
+    color: white;
 }
 
 .edu-table tr:nth-child(even) {
-  background-color: #f3e5f5; /* light purple-ish */
+    background-color: #f3e5f5;
 }
 
 .edu-table tr:nth-child(odd) {
-  background-color: #e0f7fa; /* light teal-ish */
+    background-color: #e0f7fa;
 }
 
 /* Style rules for footer content */
@@ -275,10 +231,8 @@ footer a {
     text-decoration: none;
 }
 
-/* Media Query for Tablet Viewport */
+/* Tablet Viewport */
 @media screen and (min-width: 600px), print {
- 
-    /* Tablet Viewport: Show tab-desk class, hide tel-link class */
     .tablet-desktop {
         display: block;
     }
@@ -286,41 +240,61 @@ footer a {
     .tel-link {
         display: none;
     }
-    
-    /* Tablet Viewport: Style rules for nav area */
+
     nav li {
         border-top: none;
         display: inline-block;
         font-size: 1.25em;
     }
-    
+
     nav li a {
         padding: 0.85em;
     }
-    
-    /* Tablet Viewport: Style rule for main content */
+
     .map {
         width: 525px;
         height: 450px;
     }
-    
 }
 
-/* Media Query for Desktop Viewport */
+/* Desktop Viewport */
 @media screen and (min-width: 900px), print {
-    
-    /* Desktop Viewport: Style rules for nav area */
     nav li {
         font-size: 1.5em;
     }
-    
+
     nav li a {
         padding: 0.5em 1.5em;
     }
-    
+
     nav li a:hover {
         color: #132913;
         background-color: #e2eae2;
     }
-    
+}
+
+/* Mobile Viewport */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        margin: 10px;
+    }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        padding: 10px;
+    }
+
+    #nav-menu.show {
+        display: flex;
+    }
+
+    nav a {
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+    }
 }
