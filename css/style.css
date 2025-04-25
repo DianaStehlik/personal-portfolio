@@ -308,5 +308,7 @@ footer a {
         color: #132913;
         background-color: #e2eae2;
     }
+	nav li a:visited {
+ 	color: #D8BFD8;
     
 }
