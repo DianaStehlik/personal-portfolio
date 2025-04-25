@@ -88,9 +88,6 @@ background-color: #e0f7fa;
    	 	padding: 14px 20px;
 }
 
-	nav a:visited {
-   	 color: #D8BFD8;
-}
 /* Tablet Viewport: Show mobile class, hide tablet-desktop class */
 .mobile {
     display: block;
@@ -155,7 +152,7 @@ padding: 14px 20px;
 }
 
 nav a:visited {
-	color: #D8BFD8
+	color: #D8BFD8;
 }
 
 nav a:hover {
@@ -322,5 +319,7 @@ footer a {
         color: #132913;
         background-color: #e2eae2;
     }
-    
+    nav a:visited {
+   	 color: #D8BFD8;
+}
 }
